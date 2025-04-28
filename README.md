@@ -1,16 +1,20 @@
-# employee_api
+# Employee Fetcher
 
-A new Flutter project.
+This Flutter project fetches employee data from an API, parses the JSON response, and displays it in a list view.
 
-## Getting Started
+## Features
+- Fetch data from API endpoint: http://dummy.restapiexample.com/api/v1/employees
+- Parse JSON responses into EmployeeModel
+- Display employee name and salary in a list
 
-This project is a starting point for a Flutter application.
+## Technologies
+- Flutter
+- HTTP Package
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+(Screenshot Here)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+1. Clone the repo
+2. Run `flutter pub get`
+3. Run the app on an emulator or real device
