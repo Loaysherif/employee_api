@@ -1,4 +1,4 @@
-/// EmployeeModel is responsible for holding the employee data.
+// lib/models/employee_model.dart
 class EmployeeModel {
   final int id;
   final String employeeName;
@@ -23,5 +23,16 @@ class EmployeeModel {
       employeeAge: json['employee_age'],
       profileImage: json['profile_image'],
     );
+  }
+
+  // Convert EmployeeModel to JSON
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'employee_name': employeeName,
+      'employee_salary': employeeSalary,
+      'employee_age': employeeAge,
+      'profile_image': profileImage,
+    };
   }
 }
